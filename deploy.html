@@ -14,7 +14,7 @@ if (screen.width > 768) {
     //mvp.setAttribute('content','maximum-scale=0.80');
 }
 </script>
-   <title>Deploy | Gifted-Mdv2</title>
+   <title>Deploy | Gifted-Md</title>
   <link rel="stylesheet" href="./deploy.css">
 </head>
   
@@ -22,7 +22,7 @@ if (screen.width > 768) {
 <body>
 <!-- partial:index.partial.html -->
 <head>
-    <title>Fork : Gifted-Mdv2</title>
+    <title>Fork : Gifted-Md</title>
 </head>
 <body>
 
@@ -61,9 +61,9 @@ if (screen.width > 768) {
               try {const repo = await axios(`https://api.github.com/repos/${document.getElementById('name').value}/Gifted-Md`); } 
               catch (e) {
                 alert("Please Fork The Repository First.\nClick The 'OK' Button To Fork")
-                return location.replace('https://github.com/giftedtechnexus/Gifted-Md/fork')
+                return location.replace('https://github.com/mouricedevs/Gifted-Md/fork')
               }
-              location.replace('https://dashboard.heroku.com/new?template=https://github.com/giftedtechnexus/Gifted-Md')
+              location.replace('https://dashboard.heroku.com/new?template=https://github.com/mouricedevs/Gifted-Md')
             } catch (error) { alert('Invalid Github Username') }
           }
         }
