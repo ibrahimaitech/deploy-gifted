@@ -1,0 +1,119 @@
+:root {
+  --primary: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.section1 {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary) url('https://i.ibb.co/TTcdVX3/images-1.jpg') no-repeat center center/cover;
+  backdrop-filter: blur(20px);
+}
+
+.section1::after {
+  content: "ᴀᴄᴇ-ᴍᴅ is designed to bring a whole new level of excitement to your boring WhatsApp use.";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+
+.container { /*center Countainer for Input*/
+    width: 600px;
+    display: flex;
+    min-height: 450px;
+    position: relative;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background: #00FFFF;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container::after {
+  content: "©2024 Pᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ •••";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #000000;
+  font-size: 12px;
+}
+
+.form {    /*input field */
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background: #fff;
+  position: relative;
+}
+
+.form h2 {   /*Github User Name Text*/
+  color: rgb(15, 0, 230);
+  font-size: 30px;
+  border: rgb(0, 0, 0);
+  font-weight: 400;
+  position: relative;
+  letter-spacing: 1.5px;
+  margin-bottom: 35px;
+}
+
+.form h2::before {  /*Line After Heading Text*/
+  left: 0;
+  width: 350px;
+  height: 4px;
+  content: "";
+  bottom: -1px;
+  background: #3dab03;
+  position: absolute;
+  color: #25D3C6;
+}
+
+.form .input__box input[type="button"] {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    max-width: 100px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    background-image: url('https://i.ibb.co/TTcdVX3/images-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.form .input__box input {
+  width: 100%;
+  color: #000000;
+  border: rgb(255, 117, 140);
+  outline: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  letter-spacing: 1.2px;
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 0.8px solid rgb(192, 188, 194);
+  box-shadow: 0 7px 35px rgb(159, 156, 160);
+  border-right: 0.8px solid rgb(151, 148, 153);
+  border-bottom: 0.8px solid rgb(164, 160, 166);
+}
