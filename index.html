@@ -58,12 +58,12 @@ if (screen.width > 768) {
           {
             try {
               const { data } = await axios(`https://api.github.com/users/${document.getElementById('name').value}`)
-              try {const repo = await axios(`https://api.github.com/repos/${document.getElementById('name').value}/Gifted-Md`); } 
+              try {const repo = await axios(`https://api.github.com/repos/${document.getElementById('name').value}/IBRAHIM-MD`); } 
               catch (e) {
                 alert("Please Fork The Repository First.\nClick The 'OK' Button To Fork")
-                return location.replace('https://github.com/mouricedevs/Gifted-Md/fork')
+                return location.replace('https://github.com/ibrahimaitech/IBRAHIM-MD')
               }
-              location.replace('https://dashboard.heroku.com/new?template=https://github.com/mouricedevs/Gifted-Md')
+              location.replace('https://dashboard.heroku.com/new?template=https://github.com/ibrahimaitech/BLACK-PANTHER-MD')
             } catch (error) { alert('Invalid Github Username') }
           }
         }
